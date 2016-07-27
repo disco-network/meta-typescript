@@ -1,0 +1,33 @@
+{
+  "name": "meta-typescript",
+  "version": "0.0.1",
+  "description": "meta-typescript enables you to create TypeScript code generating more TypeScript code!",
+  "main": "lib/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disco-network/meta-typescript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/disco-network/meta-typescript/issues"
+  },
+  "homepage": "https://github.com/disco-network/meta-typescript#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "tslint": "^3.13.0",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "fs": "0.0.2"
+  }
+}
